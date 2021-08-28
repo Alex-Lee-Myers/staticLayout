@@ -100,10 +100,12 @@ nav {
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 950px;
     width: 100%;
 }
 
 #purplelaptop {
+    margin-top: -80px;
     width: 100%;
 }
 
@@ -112,24 +114,131 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30%;
+    width: 33%;
     margin: 0 auto;
     padding: 250px 0 50px 0;
 }
 
+
+#mainContainer > h1 {
+    font-weight: 550;
+    font-size: 45px;
+    letter-spacing: 1.1px;
+    margin-top: 50px;
+}
 #mainContainer > p {
     text-align: center;
+    line-height: 30px;
 }
+
 
 .orangeButton {
     background-color: #fe9000;
     border-radius: 3px;
     color: white;
-    text-align: center;
+    font-weight: 500;
     height: 40px;
     line-height: 40px;
-    text-transform: uppercase;
-    font-weight: 500;
+    margin-top: 30px;
+    text-align: center;
     text-decoration: none;
+    text-transform: uppercase;
     width: 200px;
+}
+
+/* Featured in section */
+
+#featured {
+    margin-top: 80px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+#featured > h2 {
+    font-size: 28px;
+    font-weight: 450;
+    margin-top: -90px;
+}
+
+.galleryRowOne, .galleryRowTwo {
+    margin-top: -50px;
+}
+
+.galleryRowOne > img {
+    padding: 60px;
+}
+
+.galleryRowTwo > img {
+    padding: 60px;
+}
+
+/* What is Kast? section */
+
+#whatIsKast {
+    align-items: center;
+    background-image: url("/assets/whatIsKastBlueGreenBG.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    width: 100%;
+}
+
+#whatIsKast h2,#whatIsKast p  {
+    color: white;
+}
+
+#whatIsKast h2 {
+    font-size: 48px;
+    font-weight: 530;
+    letter-spacing: 2.5px;
+    margin-top: -20px;
+    width: 50
+}
+
+#whatIsKast p {
+    width: 40%;
+    text-align: center;
+}
+
+/* TryKastTV section */
+
+#tryKastTV {
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    height: 1000px;
+    justify-content: center;
+    margin-top: -50px;
+    width: 100%;
+}
+
+#tryKastTV h1, #tryKastTV p, #tryKastTV h2 {
+    color: black;
+}
+
+#TryKastTV #KastH1 {
+    font-size: 20x;
+    font-weight: 200;
+    letter-spacing: 2.5px;
+    width: 50;
+}
+
+#TryKastTV #KastH2 {
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 2.5px;
+    width: 50;
+}
+
+#tryKastTV #pOrange {
+    color:orange;
+    font-size: 15px;
+    margin-top: 40px;
 }
