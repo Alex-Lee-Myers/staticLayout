@@ -4,7 +4,7 @@ body {
 }
 
 /* navBar begins */
-
+/* This took me foreeeeeeeeeeeeeeeeeever. Probably way easier in JS or something.*/
 
 header {
     background-color: rgba(85, 121, 119, 0.55);
@@ -15,12 +15,6 @@ header {
     position: sticky;
     width: 100%;
     top:0;
-    z-index: 2;
-    /* transition: all 300ms ease-in-out;
-    transition-property: all;
-    transition-duration: 300ms;
-    transition-timing-function: ease-in-out;
-    transition-delay: 0s; */
 }
 
 .logo {
@@ -208,36 +202,44 @@ nav {
 }
 
 /* TryKastTV section */
-
+/* #tryKastTV is the section name, not the header name */
 #tryKastTV {
     align-items: center;
+    color: black;
     display:flex;
     flex-direction: column;
-    height: 1000px;
+    height: 1300px;
     justify-content: center;
-    margin-top: -50px;
+    margin-top: -40px;
     width: 100%;
 }
-
-#tryKastTV h1, #tryKastTV p, #tryKastTV h2 {
-    color: black;
-}
-
-#TryKastTV #KastH1 {
-    font-size: 20x;
-    font-weight: 200;
+/* Try Kast TV Header Text */
+#KastH1 {
+    font-size: 48px;
+    font-weight: 500;
     letter-spacing: 2.5px;
     width: 50;
 }
 
-#TryKastTV #KastH2 {
-    font-size: 20px;
-    font-weight: 200;
-    letter-spacing: 2.5px;
+#tryKastTVparagraph {
+    line-height: 30px;
+    text-align: center;
+    width: 40%;
+}
+
+#vimeoVideo {
+    height: 550px;
+    width: 950px;
+}
+/* Repeat Try Kast TV text but half sized*/
+#KastH2 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 70px;
     width: 50;
 }
 
-#tryKastTV #pOrange {
+#pOrange {
     color:orange;
     font-size: 15px;
     margin-top: 40px;
